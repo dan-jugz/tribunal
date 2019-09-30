@@ -8,6 +8,9 @@ def welcome(request):
 
 def news_of_day(request):
     date = dt.date.today()
+
+    #convert date object to find exact day
+    day = convert_dates(date)
     html = f'''
         <html>
             <body>
