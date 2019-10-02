@@ -25,7 +25,7 @@ SECRET_KEY = 'zl0g12xlsb$u%b-0_57g1r*a7jx7ndzz4(b9s6!e#5*43$be!%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'tribune1',
         'USER':'daniel',
-        'PASSWORD':'watchlist'
+        'PASSWORD':'watchlist',
     }
 }
 
